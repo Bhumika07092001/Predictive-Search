@@ -1,0 +1,23 @@
+.search-container {
+    position: relative;
+}
+
+#predictionList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+}
+
+#predictionList li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#predictionList li:hover {
+    background-color: #f1f1f1;
+}
